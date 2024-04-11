@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:wght@400;700&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+.cabecalho {
+  background-color: #202660ee;
+  color:white;
+  display:flex;
+  justify-content: space-around; 
+  align-items:center;
+  padding: 24px 0;
+}
+.cabecalho-imagem{
+width: 20%;
+}
+
+.cabecalho-lista-item{
+  display: inline-blocK;
+  margin:0 16px;
+  font-size: 24px;
+}
+.escola-imagem{
+  width: 25%;
+}
+
+.escola{
+  background-image: linear-gradient(#D2BBBB, #6AADD3);
+  color: #393f76ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.escola-div-conteudo{
+width: auto;
+}
+
+
+.escola-titulo{
+  padding: 30px;
+}
